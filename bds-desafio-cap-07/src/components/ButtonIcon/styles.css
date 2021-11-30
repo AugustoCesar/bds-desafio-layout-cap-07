@@ -1,0 +1,20 @@
+.btn-container button {
+  border-radius: 5px;
+  padding: 12px 36px;
+  background: #00285f;
+  width: 175px;
+  height: 40px;
+}
+
+.btn h6 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .btn h6 {
+    font-size: 18px;
+  }
+}
