@@ -45,7 +45,6 @@
 .home-content-container h1 {
   width: 260px;
   font-size: 1em;
-  margin-bottom: 15px;
   color: #FFFFFF;
 }
 
@@ -53,14 +52,15 @@
   color: #FFFFFF;
   font-size: 14px;
   margin-bottom: 30px;
+  width: 260px;
 }
 
 .home-image-container {
-  padding: 50px 15px;
+  padding: 25px 15px;
 }
 
 .home-image-container svg {
-  width: 100%;
+  width: 250px;
   height: auto;
 }
 
@@ -71,80 +71,73 @@
   }
   .home-content-container h1 {
     width: 506px;
-    margin-bottom: 20px;
+    font-size: 36px;
   }
   .home-content-container p {
-    width: 506px;
-    margin-bottom: 20px;
+    width: 420px;
+    margin: 0px 40px 20px;
+    font-size: 18px;
+    align-items: center;
   }
   .home-image-container svg {
-    width: 506px;
+    width: 340px;
+  }
+
+/*Container with button*/
+  .home-card-btn {
+    display: flex;
+    align-items: center;
+    height: 125px;
+  } 
+  .home-btn-container{
+    margin: 30px 20px 40px 85px;
   }
 }
 
 @media (min-width: 768px) {
   .home-image-container {
-    padding: 100px 20px;
-  }
-  .home-content-container {
-    padding: 20px 20px 100px 20px;
+    padding-top: 80px;
   }
 }
 
 @media (min-width: 992px) {
-  .home-container {
-    font-size: 55px;
-    padding: 40px;
-  }
-  .home-image-container {
-    padding: 125px 20px;
-  }
-  .home-content-container {
-    padding: 20px 20px 150px 20px;
-  }
-  .home-content-container h1 {
-    margin-bottom: 26px;
-  }
-  .home-content-container p {
-    margin-bottom: 47px;
-  }
-  .home-content-container h1 {
-    width: 700px;
-    margin-bottom: 20px;
-  }
-  .home-content-container p {
-    width: 700px;
-    margin-bottom: 20px;
+  .home-image-container svg {
+    width: 460px;
   }
 }
 
 @media (min-width: 1200px) {
+  .home-container{
+    width: 980px;
+    margin: auto;
+  }
+  .home-content-container-text{
+    margin: 140px 0px 140px 85px;
+    width: 410px;
+  }
+  .home-content-container p {
+    margin: 0px;
+  }
   .home-card {
     flex-direction: row;
     justify-content: space-around;
-    padding: calc(((85vh - 480px) / 2) - 20px) 0;
   }
   .home-content-container {
-    height: 480px;
-    width: 700px;
-    padding: 20px;
     align-items: flex-start;
     text-align: left;
     align-content: space-between;
     flex-flow: wrap;
   }
   .home-image-container {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+    width: 340px;
+    margin-right: 80px;
   }
-  .home-image-container svg {
-    width: 100%;
-  }
-}
 
-@media (min-width: 1400px) {
+  .home-image-container {
+    padding-bottom: 0px;
+  }
+
   .home-image-container svg {
-    width: 480px;
+    width: 340px;
   }
 }

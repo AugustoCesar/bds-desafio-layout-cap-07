@@ -1,6 +1,7 @@
 .main-nav {
   padding-left: 40px;
   min-height: 70px;
+  margin: auto;
 }
 
 .nav-logo-text,
@@ -12,11 +13,13 @@
   display: flex;
   font-size: 18px;
   width: 380px;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-left: auto;
 }
 
 .main-menu a {
   color: #00285F;
+  margin-left: 50px;
 }
 
 .main-menu a:hover {
@@ -25,5 +28,9 @@
 
 .main-menu a.active {
   color: #00285F;
-  font-weight: bold;
+  font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+    
 }

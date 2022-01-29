@@ -9,7 +9,7 @@ const Home = () => {
       <div className="home-container">
         <div className="base-card home-card">
           <div className="home-content-container">
-            <div>
+            <div className="home-content-container-text">
               <h1>O carro perfeito para você</h1>
               <p>
                 Conheça nossos carros e dê mais um passo na realização do seu

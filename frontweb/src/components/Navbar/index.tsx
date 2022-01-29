@@ -23,10 +23,10 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="carrostop-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="/">HOME</a>
+              <a href="/" className='active'>Home</a>
             </li>
             <li>
-              <a href="/catalog" >CATÁLOGO</a>
+              <a href="/catalog">Catálogo</a>
             </li>
           </ul>
         </div>
