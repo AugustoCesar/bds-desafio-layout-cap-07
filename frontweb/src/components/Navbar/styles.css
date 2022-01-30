@@ -32,5 +32,12 @@
 }
 
 @media (min-width: 1200px) {
+  .container-fluid{
+    width: 960px;
+    padding: 0px;
     
+  }  
+  .main-nav{
+    padding: 0px;
+  }
 }
