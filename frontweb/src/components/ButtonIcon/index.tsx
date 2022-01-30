@@ -1,10 +1,12 @@
 import './styles.css';
-
-const ButtonIcon = () => {
+type Props = {
+  name?: string;
+};
+const ButtonIcon = ({ name }: Props) => {
   return (
     <div className="btn-container">
       <button className="btn">
-        <h6>VER CATÁLOGO</h6>
+        <h6>{name}</h6>
       </button>
     </div>
   );
