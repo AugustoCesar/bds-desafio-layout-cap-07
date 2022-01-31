@@ -1,12 +1,28 @@
+header {
+  position: fixed;
+  width: 100%;
+  min-width: 220px;
+}
+
+.container-fluid button {
+  border: none;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 40, 95, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: rgba(0, 40, 95, 1);
+}
+
 .main-nav {
-  padding-left: 40px;
   min-height: 70px;
-  margin: auto;
 }
 
 .nav-logo-text,
 .nav-logo-text:hover {
-  color: #00285F;
+  color: #00285f;
 }
 
 .main-menu {
@@ -14,30 +30,27 @@
   font-size: 18px;
   width: 380px;
   justify-content: flex-end;
-  margin-left: auto;
+  margin-left: 0px;
 }
 
 .main-menu a {
-  color: #00285F;
-  margin-left: 50px;
+  color: #00285f;
 }
 
 .main-menu a:hover {
-  color: #00285F;
+  color: #00285f;
 }
 
 .main-menu a.active {
-  color: #00285F;
+  color: #00285f;
   font-weight: 700;
 }
 
-@media (min-width: 1200px) {
-  .container-fluid{
-    width: 960px;
-    padding: 0px;
-    
-  }  
-  .main-nav{
-    padding: 0px;
+@media (min-width: 768px) {
+  .main-menu {
+    margin-left: auto;
+  }
+  .main-menu a {
+    margin: 0 0 0 50px;
   }
 }

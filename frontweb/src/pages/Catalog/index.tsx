@@ -1,9 +1,10 @@
 import ProductCard from 'components/ProductCard';
 import Search from 'components/Search';
+import './styles.css';
 
 const Catalog = () => {
   return (
-    <div className="container my-4">
+    <div className="container catalog-container">
       <div className="base-card product-card">
         <Search />
       </div>
